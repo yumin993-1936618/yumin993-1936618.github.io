@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<head> 
+		<title> Original Work  </title>
+		<link rel="stylesheet" type="text/css" href="anExternal.css" />
+	</head>
+	<style>
+		.p1{
+			border-style: dotted;
+			border-radius: 50px;
+    		font-family: "Arial";
+		}
+
+		.p2{
+    		color: red;
+    		font-family: "Lucida Console", "Courier New", monospace;
+		}
+		.container {
+  			position: relative;
+  			text-align: center;
+		}
+		.centered {
+  			position: absolute;
+			color: brown;
+			font-size: 100px;
+  			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+		}
+	</style>
+
+	<body>
+		<p class="p1">This is the first paragraph.</p> 
+		<p class="p2">There are bunch of CSS elements in this page we have not discussed in class.
+			For example, customize borders, center the text over image, and resize images.
+		</p> 
+		<img src="IMG_1905.jpg" style = "height:50px; width:50px;"/>
+		<img src="IMG_4708.jpeg" style = "height:50px; width:50px;"/>
+		<div class="container">
+			<img src="IMG_4708.jpeg" alt="Snow" style="width:100%;">
+			<div class="centered">Centered</div>
+		</div>
+		<div id = "Content">
+			<p>I am the pic with 20 pixel margins on each sid and floated on the right.</p>
+			<img src="price.jpg">
+		</div>
+	</body>
+
+</html>
